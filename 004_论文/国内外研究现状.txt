@@ -1,0 +1,314 @@
+1.2.2关于高频交易及稳定分布的国内研究情况
+国内对高频交易策略的研宄起步比较晚，朱建平、来升强(2009)[30]在套利定
+价理论的框架下，对基于市场中性的微观交易策略的含义和本质进行了深入的探
+讨。镇磊(2010)[31]在《基于高频数据处理方法对A股算法交易优化决策的量化分
+析研宄》一文中，介绍了高频交易的兴起和发展现状，以及当前高频交易的常用
+高频和主流设计思想，并通过对股票市场的发展分析，对在股票市场进行高频交
+易所需要注意的问题进行分析总结。张彦(2011)[32]对CSI300股指期货与现货间
+关系进行了研宄，使用广义自回归异方差模型（GARCH)模型分析了期货的推出
+给现货带来的影响，证明二者之间存在强相关性，但不存在相互决定关系。胡天
+福，何晓彬(2012)[33]的高频交易在中国证券市场的应用研宄，采用趋势跟踪策略
+对股指期货进行模拟。曾勇(2012)[34]等基于上证50与深证成指指数成分股的高频
+交易数据，实证考察了阻力线(支撑线)与市场流动性指标之间的关系。任品和苟开
+桂(2013)[35]对目前国内期货市场的微观结构进行了相关研宄，更好地认识了市场
+微观构件如何影响市场价格变动趋势，有助于我们评价期货市场质量和效率。包
+思(2013)[36]通过平稳化MACD指标，并将其应用于高频交易中，得到了较好的收
+益。徐冉、戴伟辉(2013)[37]提出了基于TDF(Theory-Data-Feedback)框架的建模
+分析新方法对沪深300股指交易指数收益率进行了实证分析，取得了很好的效果。
+陈炜、孙梦荣(2013)[38]等以投资组合相关理论为基础，构建高频交易策略组合配
+置模型，利用人工蜂群方法对模型进行了实证研宄。张涤新和李超(2013)[39]研宄
+了我国股指期货与股票组合的高频套利，证明了中国国内市场具有较好的套利机
+会。左顺根(2013)[40]将理论与实证相结合，使用G-S、Geweke线性反馈、DSEM
+等模型从股指期货价格发现、套期保值、股票与股指期货市场价格波动等多个方
+面对期货现货市场进行了研宄和总结。在价格预测方面，曹柯(2013)[41]等人提出
+了经验模态分解和相关向量机的方法对期货价格进行预测，并证明该方法能取得
+较好的效果。燕汝贞等(2014)[42]通过优化交易算法，构建交易策略模型，能为投
+资者减少交易成本。韩芳婕(2014)[43]等用历史数据进行回溯检验，结果表明：基
+于过滤理念的高频交易策略能够显著提高策略的夏普比率，能有效的控制交易风
+险。同时实证结果表明对于基本的日内策略，加入复合止损条件可以更加有效的
+降低风险，降低策略的最大亏损。陈贻娟(2014)[44]等利用列联表检验及独立性检
+验，发现量化交易策略与价格波动之间极有可能存在着一定的非独立的关系。梁满
+发、潘哗(2014)[45]提出通过Kelly策略优化单一高频策略模型的收益，并且建立基
+于高频交易的投资组合策略。田波平等(2015)[46]在基于高频交易策略的BIAS技术
+指标统计分析一文中，就国内高频交易的现状通过技术分析的手段对高频交易策略
+进行研宄，并利用我国股票市场的高频交易数据对策略进行实证检验。陈艳、王宣
+承(2015)[47]就我国金融衍生品市场的现状提出了基于LASSO变量选择方法和遗
+传网络规划的期货高频交易策略。
+国内有关稳定分布及金融数据统计特征的文献也有很多，徐剑刚和唐国
+兴(1997)[48]可能是我国最早的一篇关于我国股票市场波动性GARCH-M建模的
+文章；此后，严太华(2000)[49]、杜海涛(2000)[50]、唐齐鸣和陈健(2001)[51]、温
+素彬(2002)[52]、陈守东和俞世典(2002)[53]、金洪飞(2004)[54]、王佳妮和李文
+浩(2005)[55]等都对我国证券市场建立了时间序列模型并在实证分析中取得了不错
+的效果；徐绪松(2006)[56]等在非正态稳定分布条件下的投资组合模型：均值-尺
+度参数模型一文中提出在非正态稳定分布条件下研宄投资组合模型，通过拟合优度
+检验发现我国的股票收益率与非正态稳定分布的拟合效果非常好；研宄了非正态稳
+定分布条件下投资组合收益和风险的度量，建立了均值-尺度参数投资组合模型;
+通过实证分析发现均值-尺度参数模型能够解释资产配置之谜。艾克凤(2006)[57]
+采用Mantegna和Stanley(1995)提出的方法，得到上证综指收益率的特征指数估计
+为1.4837，我国股票市场收益率不服从正态分布，收益率分布呈现尖峰厚尾特征。
+钟蓉萨(1999)[58]研宄了沪、深市场部分股票收益率的各阶矩的特征。龚锐、陈仲
+常和杨栋锐(2005)[59]、马丹(200句[60]假定误差序列服从t分布、GDE分布等非
+正态分布建立了我国股市的GACRH类模型，取得了满意的实证分析结果。武东
+等(2006)[61]、[62]以及周孝华和王小庆(2009)[63]基于稳定分布进行了股票收益率
+的特征分析并应用于风险值VaR的计算，验证了稳定分布的可靠性和可行性；稳
+定分布的分布指数很好地刻画的分布的厚尾性。李志慧和卢新生(2011)[64]研宄了
+玉米等中国农产品期货的多重分形性及其成因。史文静和高岩(2014)[65]研宄了中
+国股指期货价格的多重分形性及其成因。陈伟娜（2015)[66]引入稳定分布，用向
+前违约概率的方法，将多重积分转化为递推的单重积分，从而为CDO定价建立一
+个兼具精确性和实用性的动态稳定因子Copula模型，并且适用于基于同一信用组
+合的不同期限的CDO定价。
+
+
+
+
+1.2.1关于高频交易及稳定分布的国外研究情况
+最近几年许多国外学者对高频交易的理论作了大量研宄，大大地促进了
+高频交易的发展。Cvitanic和Kirilenko(2010)[4]首次给出高频理论分析的模型。
+Chaboud(2011)等[5]发现高频交易与算法交易、程序化交易等有较大的重叠，所以
+认为高频交易是算法交易的一种特殊情形。Brogaard[6]在2011年研宄发现由于信
+息技术和计算机的发展，使得高频交易成为美国证券交易的主要部分；截止到2010
+年，高频交易量几乎占美国证券交易量的70%。Gomber和Haferkorn(2012)[7]认为
+高频交易是一种通过设计复杂算法实现快速下单、撤单而获利的交易方式；高频
+交易的交易标的是高流动性的资产，通过自有资金进行快速的买卖头寸。Scholtus
+(2012)等[8]在对高频交易的速度与绩效的关系进行了实证研宄时发现高频交
+易的速度对交易策略的回报产生了显著的影响，所以高频交易的速度很重要。
+Menkveld(2012)[9]的分析显示大量高频交易的出现、新市场的产生与买卖价差
+下降50%同时发生；并得出以下结论：高频交易量占所有交易的14.4%，80%的
+高频交易策略是被动的，高频交易速度非常快，每一笔交易仅获得很少的收益。
+Easley(2012)等[10]在研宄基于订单驱动市场的知情交易概率的测度模型(VPIN)在
+高频交易中的作用中发现：源于毒性对流动性供给产生的作用，高水平VPIN会
+带来价格大幅波动的风险；而开发依据毒性来改变指令交易方式的算法将会缓解
+这一风险。所以交易所可以将VPIN方法用于流动性准备源中，在流动性遭受打
+击下降时另一方会加速流动性供给，这样就可以保持做市商的活性。Gomberand
+Haferkorn(2013)[7]的分析可以将高频交易的主要策略分为三大类：流动性提供即
+做市商交易，统计套利(StatisticalArbitrage)，盘口交易(TradingtheTape)。
+关于高频交易的研宄大部分学者认为高频交易对市场和交易者是比较有利的，
+他们大致都得出这样的结论：高频交易能够增加市场的流动性、减少短期波动以及
+能给交易者带来丰厚回报等。2010年，Brogaard[11]研宄认为高频交易者避免了和
+具有内部消息的交易商交易，并且为市场提供流动性。Aldridge[12]在2010年也认
+为高频交易在增加市场流动性、提升市场效率、稳定市场以及信息技术创新等方面
+都有着正面、积极的作用。Hasbrouck和Saar(2012)[13]研宄表明交易商把交易主
+机托管具有明显的时间优势；同样场内交易商比场外交易商更具备时间优势。所以
+现在很多交易上把服务器部署在交易所附近是为了争取时间优势。Hanson(2011)
+[14]发现在一个模拟的市场环境，高频交易者的参与提高了市场流动性和效率。
+Esipov(2012)[15]认为利用高频价格波动和自动交易获利的市场参与者和做市商同
+样决定了市场是否有效率，这是从市场效率的角度研宄了高频交易对市场质量的影
+响。Angel和McCabe(2013)[16]认为在过去的十年高频交易明显提升了美国的市场
+深度。Brogaard(2010)[11]研宄还认为2008年的卖空禁令很大程度上限制了高频交
+易的参与，使得日内波动性明显提升；他还发现高频交易有助于发现市场的价格。
+Chaboud(2011)等[5]研宄了从2003年到2007年算法交易在外汇市场中的作用。他
+们用三组外汇高频交易数据，发现高频交易下外汇交易盈利的方差比手工交易下要
+小，说明人仍旧是一个会利用内部消息的交易者。Foucault(2011)等[17]认为投资
+者在高频交易中能抓住投资机会并从交易中获利。
+当然也有的学者认为高频交易对市场有负面影响。Zhang(2010)[18]分析了
+在不同时期的市场中高频交易对股市波动的长期作用，认为高频交易提高了股
+市的长期波动性；他还认为如果市场中存在较多的高频交易者就会造成基本面
+消息对股价产生过度的响应，所以高频交易干扰市场的价格发现过程。Grillet-
+Aubert(2010)[19]在研宄中指出，由于高频交易者可以在10微秒内撤销交易指令，
+这使得指令的撤销率变得极高。Robert(2011)等[20]认为高频交易能够扰乱市场。
+Kirilenko等(2011)[21]通过研宄2010年5月美国股市的“闪跌”认为高频交易增
+加了股市的短期波动性。Dichev等(2011)[22]研宄发现高频交易大幅增加的交易
+量增强市场波动性。Boehmer等(2013)[23]对全球39个交易所数据进行了分析之
+后得出：算法交易与高频交易能够系统性地增强市场的短期波动。Martinezand
+Rosu(2013)[24]的研宄也表明高频交易明显提高市场短期波动性。
+对高频数据的分析也成为很多领域的热点。首先高频数据本身具有时间间隔不
+等、取值离散等方面的问题，如何处理这种数据对于很多传统分析方法来说是一个
+挑战。再者高频数据中的波动性能够反映市场微观结构的重要信息，有利于投资者
+理解市场的微观结构。所以金融高频数据的出现使得各种基础理论和计量模型得到
+创新和发展，并且方便了人们对市场微观结构的研宄。实证研宄表明金融资产收益
+率呈现出尖峰、厚尾等非正态特性，这与稳定分布的特征一致。稳定分布是由列维
+在二十年代提出来的，一经提出就在金融市场得到广泛的应用；因为它具有良好的
+性质，并且对金融市场的拟合程度比较高。Mandelbrot(1968)[25]等提出了著名的
+分形理论，并指出金融资产呈现出尖峰、厚尾等非正态特征。Peters(1994)[26]论
+述了美国股票收益率具有稳态的特性。Hurst(1999)等[27]研宄了对数稳定分布下
+的期权定价公式。Khindanova(2001)[28]等讨论了稳定分布的VaR模型。2003年，
+Jacquier等[29]的研宄发现SP500指数的日收益数据具有非正态性。
+
+
+
+
+1 ] 艾 琳 .奥 尔 德 里 奇 . 高 频 交 易 [M].北 京 ： 机 械 工 业 出 版 社 ，page 3, 2011.
+21蓝 海 平 . 高 频 交 易 的 技 术 特 征 一 发 展 趋 势 及 挑 战 . 证 券 市 场 导 报 ，2014.
+S.Von der Becke D.Sornnette. Crashes and High Frequency Trading[R].  Swiss
+Finance Institute Research, pages 11-63, 2011.
+Cvitanic, Jaksa, and Andrei A Kirilenko. High Frequency Traders and Asset
+Prices[R].  Working Paper(March 1).Available at SSRN, 2010.
+Chaboud, Alain, Hjalmarsson, and Erik. Rise of the Machines: Algorithmic
+Trading in the Foreign Exchange Market[R].  FRB International Finance Dis-
+cussion Paper No.980, 2011.
+J.A.Brogaard. The activity of high frequency traders[R].  University of Wash-
+ington Working Paper, 2011.
+P.Gomber,Martin Haferkorn. High- Frequency Trading[J].  Business and Infor-
+mation Systems Engineering , 2013.
+Scholtus, L.Martin, Van Dijk, and J.C.Dick. High- Frequency Technical Trad-
+ing:The Importance of Speed[R].  Tinbergen Institute Discussion Paper, 2012.
+Menkveld,J.Albert. High Frequency Trading and the New- Market Makers[R].
+Associate Financial Advisor Confercence2012 Paper, 2012.
+56
+万方数据
+参 考 文 献
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Easley, David, Lopez de Prado, and Marcos. Flow Toxicity and Liquidity in a
+High Frequency World[J].  Review of Financial Studies, 2012.
+J.A.Brogaard. High Frequency Trading and Its Impact on Market Quality[R].
+University Kellogg School of Management Working Paper, 2010.
+I.Aldridge. High- Frequency Trading: A Practical Guide to Algorithmic Strate-
+gies and Trading Systems[M].  John Wiley Sons, Inc.,New Jersey, 2010.
+Hasbrouck, Joel, and Saar. Low- Latency Trading[R].  Johnson School Research
+Paper Series No.35- 2010,2012;AFA 2012 Chicago Meetings Paper, 2012.
+T.A.Hanson. The effects of high frequency traders in a simulated market[R].
+University of Kent State Working Paper, 2011.
+Esipov,Sergei. Weakly Inefficient Markets, Stability of High- Frequency Trading
+Strategies[J].  Tribute to Y B Levinson issue. Lithuanian Journal of Physics,
+2012.
+J.Angel,D.McCabe. Fairness in Financial Markets: the Case of High Frequency
+Trading[J].  Journal ofBusiness Ethics, 112:585- 595, 2013.
+Foucault, Thierry, and Moinas. Equilibrium High Frequency Trading[R].  Inter-
+national Conference of the French Finance Association (AFFI), 2011.
+F.Zhang. High- Frequency Trading, Stock Volatility, and Price Discovery[R].
+Working Paper, Yale University, 2010.
+L.Grillet- Aubert. Equity Trading: A Review of the Economic Literature for the
+Use of Market Regulators[R].  AMF,mimeo, 2010.
+Robert A Jarrow and Philip Prottery. A Dysfunctional Role of High Frequency
+Trading in Electronic Markets[R].  Johnson School Research Paper Series, 2011.
+57
+万方数据
+参 考 文 献
+[21] Kirilenko, A.Andrei, Albert S Kyle, Mehrdad Samadi, and Tugkan Tuzun. The
+Flash Crash: The Impact of High Frequency Trading on an Electronic Mar-
+ket[R].  Working paper. Available at SSRN: http://ssrn.com/abstract=1686004,
+2011.
+[22] I.D.Dichev,K.Huang,D.Zhou. The Dark Side of Trading[r].  Emory Law and
+Economics Research Paper, 2011.
+[23] E.Boehmer,K.Y.L.Fong,J.Wu.  International Evidence on Algorithmic Trad-
+ing[C].  AFA 2013 San Diego Meetings Paper, 2013.
+[24] V.H.Martinez ,I.Rosu. High Frequency Traders,News and Volatility[R].  Research
+Paper, 2013, 2013.
+[25] B.Mandelbrot. Fractional Brownian Motions,Fractional Noises and Application-
+s.  S IA M Review, 10:422- 437, October 1968.
+[26] B.Mandelbrot. Fractal Market Analysis:Applying Chaos Theory to Investment
+and Economics.  New Yorh: John WiLey and Sons,Inc, 1994.
+[27] S.R.Hurst , E.Platen ,S.T.Rachev. Option Pricing for a Log Stable Asset Price
+Model[J].  Mathematical and Computer Modeling, 29, 1999.
+[28] I.Khindanova and S.Rachev. Stable Modeling of Value at Risk.Mathematical
+and Computer Modeling.  Mathematical and Computer Modeling , 34:1223- 1259,
+2001.
+[29] E.Jacquier,N.G.Polson and P.E.Rossi. Bayesian analysis of stoehastic volatil-
+ity models with fat- tails and correlated errors[J].  Journal of econometries,
+122:185一 212, 2003.
+[30]朱 建 平 ， 来 升 强 . 高 频 数 据 交 易 策 略 与 波 动 性 分 析 [D].厦 门 大 学 ，2009.
+[31]镇 磊 . 基 于 高 频 数 据 处 理 方 法 对 a 股 算 法 交 易 优 化 决 策 的 量 化 分 析 研 究 [D].中
+国 科 学 技 术 大 学 ，2010.
+58
+万方数据
+[32]张 彦 .中 国 股 指 期 货 与 现 货 关 系 实 证 研 宄 一 一 基 于 沪 深 300股 指 期 货 [J].价 值 工
+程 ，30:126- 128, 2011.
+[33]胡 天 福 ， 何 晓 彬 . 高 频 交 易 在 中 国 证 券 市 场 的 应 用 研 宄 [ D] .上 海 交 通 大 学 ,
+2012.
+[34]曾 勇 ， 李 文 峰 . 基 于 技 术 分 析 的 流 动 性 提 供 与 高 频 交 易 策 略 研 宄 [D].电 子 科 技
+大 学 , 2012.
+[35]任 品 ， 苟 开 桂 . 超 高 频 期 货 市 场 微 观 结 构 噪 音 实 证 研 宄 [ D] .西 南 财 经 大 学 ,
+2013.
+[36]包 思 ， 郑 伟 安 ， 周 瑜 . 基 于 m acd的 平 稳 技 术 指 标 在 高 频 交 易 中 的 应 用 [J].华 东
+师 范 大 学 学 报 （自 然 科 学 版 )，page 152—160, 2013.
+[37]徐 冉 ， 戴 伟 辉 . 金 融 高 频 交 易 数 据 的 tdf建 模 及 软 件 实 现 [ D] .复 旦 大 学 ，2013.
+[38]陈 炜 ， 石 诚 ， 孙 梦 荣 . 基 于 人 工 蜂 群 算 法 的 高 频 交 易 策 略 组 合 配 置 研 宄 [D].首
+都 经 贸 大 学 ，2013.
+[39]张 涤 新 ， 李 超 . 我 国 股 指 期 货 与 股 票 组 合 的 高 频 套 利 [ D] .南 京 大 学 ，2013.
+[40]左 顺 根 . 中 国 股 指 期 货 市 场 操 纵 及 其 对 市 场 功 能 的 影 响 研 宄 [D].华 南 理 工 大 学 ,
+2013.
+[41]曹 柯 ， 危 启 才 ， 田 魁 . 基 于 e m d和 r v m 的 股 指 期 货 价 格 预 测 [ J] .武 汉 工 业 学 报 ,
+2:115- 118, 2013.
+[42]燕 汝 贞 ， 李 平 ， 曾 勇 . 一 种 面 向 高 频 交 易 的 算 法 交 易 策 略 [ J] .管 理 科 学 学 报 ,
+page 88一 96, 2014.
+[43]韩 芳 婕 . 股 指 期 货 高 频 交 易 模 型 结 构 研 宄 [ D].华 南 理 工 大 学 ，2014.
+[44]陈 贻 娟 . 量 化 交 易 策 略 模 型 应 用 研 宄 [D].云 南 财 经 大 学 ，2014.
+[45]梁 满 发 ， 潘 哗 . 基 于 高 频 交 易 模 式 下 期 货 投 资 组 合 策 略 研 宄 [D].华 南 理 工 大 学 ,
+2014.
+____________________________________ 参 考 文 献 ____________________________________
+59
+万方数据
+参 考 文 献
+[46]田 波 平 ， 宋 天 琪 . 基 于 高 频 交 易 策 略 的 bias 技 术 指 标 统 计 分 析 [D].哈 尔 滨 工 业
+大 学 ，2015.
+[47]陈 艳 ， 王 宣 承 . 基 于 变 量 选 择 和 遗 传 网 络 规 划 的 期 货 高 频 交 易 策 略 研 宄 [D].上
+海 财 经 大 学 ，2015.
+[48]徐 剑 刚 ， 唐 国 兴 . 我 国 股 票 市 场 报 酬 与 波 动 的 garch—m模 型 [J].数 量 经 济 技 术
+经 济 研 究 ，12:28- 32, 1997.
+[49]严 太 华 . 上 海 股 市 1992 —一 1999周 末 效 应 的 实 证 研 宄 [ J] .经 济 科 学 ，2:77- 85,
+2000.
+[50]杜 海 涛 . Var模 型 及 其 在 证 券 风 险 管 理 中 的 应 用 [ J].证 券 市 场 导 报 ，8, 2000.
+[51]唐 齐 鸣 ， 陈 健 . 中 国 股 市 的 arch效 应 分 析 [ J].世 界 经 济 ，3:29- 36, 2001.
+[52]温 素 彬 . 我 国 股 市 波 动 的 arch类 模 型 分 析 [ J] .淮 海 工 学 院 学 报 ，11:64- 67, 2002.
+[53]陈 守 东 ， 俞 世 典 . 基 于 garch模 型 的 var方 法 对 中 国 股 市 的 分 析 [J].吉 林 大 学 社 会
+科 学 学 报 ，7, 2002.
+[54]金 洪 飞 . 上 海 股 市 (1997.7— 2003.5)的 波 动 性 、 风 险 溢 价 和 周 末 效 应 分 析 [J].清
+华 大 学 工 作 论 文 ，2004.
+[55]王 佳 妮 ， 李 文 浩 . Garch模 型 能 否 提 供 好 的 波 动 率 预 测 [J].数 量 经 济 技 术 经 济 研
+究 ，22:74- 87, 2005.
+[56]徐 绪 松 ， 侯 成 琪 . 非 正 态 稳 定 分 布 条 件 下 的 投 资 组 合 模 型 :均 值 -尺 度 参 数 模
+型 [ J] .武 汉 大 学 经 济 与 管 理 学 院 技 术 经 济 及 管 理 研 究 所 ，2006.
+[57]艾 克 凤 . 股 票 收 益 率 的 非 正 态 性 检 验 与 分 布 拟 合 [ D] .上 海 理 工 大 学 理 学 院 ,
+2006.
+[58]钟 蓉 萨 . 中 国 股 票 市 场 实 证 统 计 分 析 [M].北 京 ：中 国 财 政 经 济 出 版 社 ，1999.
+[59]龚 锐 ， 陈 仲 常 ， 杨 栋 锐 . Garch族 模 型 计 算 中 国 股 市 在 险 价 值 (var)风 险 的 比 较
+研 宄 与 评 述 [ J] .数 量 经 济 技 术 经 济 研 究 ，22:67- 81, 2005.
+60
+万方数据
+参 考 文 献
+[60]马 丹 . 沪 市 动 态 var计 量 模 型 分 析 案 例 [ J] .北 京 :中 国 统 计 出 版 社 ，2004.
+[61]武 东 ， 张 青 ， 汤 银 才 . 基 于 稳 定 分 布 的 股 票 收 益 率 的 特 征 分 析 [ J] .统 计 与 决 策 ,
+19:92- 93, 2006.
+[62]武 东 ， 汤 银 才 . 稳 定 分 布 及 其 在 金 融 中 的 应 用 [ J] .应 用 概 率 统 计 ，23:434- 445,
+2007.
+[63]周 孝 华 ， 王 小 庆 . 基 于 稳 定 分 布 的 风 险 价 值 (var)研 宄 与 实 证 [ J] .统 计 与 决 策 ,
+22:65- 67, 2009.
+[64]李 志 慧 ， 卢 新 生 .中 国 农 产 品 期 货 市 场 的 多 重 分 形 特 征 及 其 成 因 分 析 一 一 基
+于 mf- dfa分 析 法 [A].统 计 与 信 息 论 坛 ，26:84- 89, 2011.
+[65]史 文 静 ， 高 岩 . 基 于 mf- dfa的 中 国 股 指 期 货 价 格 的 多 重 分 形 实 证 研 宄 [A].财 务
+与 金 融 ，5:11- 15, 2014.
+[66]陈 伟 娜 . 动 态 稳 定 因 子 copula模 型 在 信 用 衍 生 品 定 价 中 的 应 用 [ D] .郑 州 大 学 ,
+2015.
+[67] Eugene F.Fama. The Behavior of Stock Market Prices[J].  Journal of Business.
+[68] Eugene F.Fama. Efficient Capital Markets:A Review of Theory and Empirical
+Work[J].  Journal of Finance, 25:383- 417, 1970.
+[69] G.Malkiel Burton. The Efficient Market Hypothesis and Its Critics.  The Journal
+of Economic Perspectives, 17:59- 82, 2003.
+[70] Andrew W.Lo,A.Craig MacKinlay.  Stock market prices do not follow ran-
+dom walks:Evidence from a simple pecification test.  Review of financial stud-
+ies.January, 1988.
+[71] E.Peters. Chaos and Order in the Capital Market.  J. WILEY, 40(4):838- 856,
+December 1991.
+[72] J.P.Nolan. Numerical Calculation of Stable Densities and Distribution Func-
+tions.  Common Statist- Stochastic Models, 13(4):759- 774, 1997.
+61
+万方数据
+参 考 文 献
+[73] E.F.Fama and R.Roll. Some Properties of Symmetric Stable Distribution.  Jour-
+nal of the American Statistical Association, 66:331- 338, 1968.
+[74] J.H.McCulloch. Simple Consistent Estimators of Stable Distribution Parameter.
+Communications in Statistics- Simulation and Computiom, 27:1109- 1136, June
+1986.
+[75] I.A.Koutrouvelis. Chaos and Order in the Capital Market.  J. WILEY, 75:918-
+928, 1980.
+[76] S.M.Kogon ,D.B.Williams. Characteristic Function Based Estimators of Stable
+Parameters.  Journal of the American Statistical Association, 66:331- 338, 1968.
+[77] J.P.Nolan.  Maximum Likelihood Estimation and Diagnostics for Stable Distri-
+butions. Birkhauser, 2001.
+
+
+
+
+
+
+
